@@ -1,0 +1,99 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 13px;
+    background: #e6ede0;
+}
+header {
+
+    height: 60px;
+    width: 100%;
+    background: #d6f1ca;
+    display: flex;
+
+}
+
+
+   
+nav ul li{
+    width: 100px;
+    margin: 0px 40px 0px 80px;
+    padding-left: 40px;
+    list-style-type:none;
+    float: left;
+    
+}
+a {
+   margin: 20px;
+   text-decoration:none ;
+}
+
+h2{
+    margin-top: 20px;
+}
+.logo{
+    margin-top: 20px;
+}
+table{
+    width: 800px;
+    height: 180px;
+    border:2px solid #010d13;
+    margin-left: 200px;
+    margin-bottom: 80px;
+}
+
+td{
+    padding-left: 10%;
+}
+h2{
+    font-size: medium;
+    text-align: left;
+    margin: 20px;
+}
+.box{
+    width: auto;
+    height: 300px;
+    margin-top: 5px;
+    padding-top: 5px;
+    background: #d6f1ca;
+ }
+.levo{
+    float: left;
+    margin: 20px 0px 0px 200px; 
+    border: 2px solid #010d13;
+
+}
+
+.box input{
+    display: block;
+    margin: 5px ;
+    border: 1px solid #010d13;
+    padding: 10px 10px;
+}
+
+div{
+    float: left;
+    text-align: start ;
+    padding: 20px 20px;
+    margin-left: 80px;
+    
+}
+
+
+button{
+    font-size: 15px;
+    color: #e0e8ed;
+    background: #1008e0;
+    padding:2px 20px;
+    margin-top: 1px;
+    margin-left: 520px;
+    border:1px solid #010d13;
+    border-radius: 5px;
+    float:inline-end;
+    
+}

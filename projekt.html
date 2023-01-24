@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="cz-cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pojištění app</title>
+    <link rel="stylesheet" href="css/projekt.css">
+</head>
+<body>
+  <header>
+     <h2 class="logo">PojištěníApp</h2>
+
+     <nav>
+        <ul> 
+            <li><a href="#">PojištěnciAll</a></li>
+            <li><a href="#">O aplikaci</a></li>
+        </ul>
+    </nav>
+</header>
+  <main>
+    <h2>Pojištěnci</h2>
+    <table border="1" cellpadding="0" cellspacing="0">
+        <tr>
+            <th>Jméno</th>
+            <th>Příjmení</th>
+            <th>Telefon</th>
+            <th>Věk</th>
+        </tr>
+    </table>
+
+    <form class="box">
+        <h2>Nový pojištěnec</h2>
+        <img src="img/IMG_3144.jpeg" alt="foto" width="120" class="levo"/>
+
+        <div>
+            <label> Jméno</label>
+            <input id="jmeno" type="text" name="firstName" placeholder="Jméno" required></input>
+            <label>Příjmení</label>
+            <input id="prijmeni" type="text" name="secondName" placeholder="Příjmení" required></input>
+        </div>
+
+        <div>
+            <label>Telefon</label>
+            <input id="telefon" type="number" name="telefon" placeholder="Telefon" required></input>
+            <label> Věk</label>
+            <input id="vek" type="number" name="Věk" placeholder="Věk" required></input>
+        </div>
+     
+        <div><button id= "btn" type="submit">Uložit</button></div>
+        <div id="idPojistenec"></div>
+    </form>
+  </main> 
+  <script src="js/projekt.js"></script>
+</body>
+</html>
